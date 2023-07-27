@@ -1,9 +1,17 @@
 * {
-  margin: 20px;
-  padding: 20;
+  margin: 0px;
+  padding: 0;
   box-sizing: border-box;
 }
-img {
-  height: 50px;
-  width: 50px;
+.logo img {
+  height: 80px;
+  width: 80px;
+  margin: 50px 200px;
+  border-radius: 15px;
+}
+h1 {
+  padding: 30px;
+  margin: auto;
+  
+  
 }
