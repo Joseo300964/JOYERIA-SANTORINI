@@ -10,8 +10,10 @@
   border-radius: 15px;
 }
 h1 {
+  /*estilo a h1*/
   padding: 30px;
   margin: auto;
-  
-  
+  text-align: center;
+  color: #1b5650;
+  font-size: 40px;
 }
