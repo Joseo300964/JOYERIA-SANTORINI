@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+<<<<<<< HEAD
   padding: 0px;
   box-sizing: border-box;
 }
@@ -10,3 +11,22 @@
 h1{
   text-align: center;
 }
+=======
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo img {
+  height: 80px;
+  width: 80px;
+  margin: 50px 200px;
+  border-radius: 15px;
+}
+h1 {
+  /*estilo a h1*/
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  color: #1b5650;
+  font-size: 40px;
+}
+>>>>>>> 11b5ffaeb8ba15f66256f4faca72fdb6ad210d2c
