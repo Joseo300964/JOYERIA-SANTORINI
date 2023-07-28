@@ -4,15 +4,20 @@
   box-sizing: border-box;
 }
 header {
-  display: flex;
+display: flex;
 width: 1600px;
 height: 200px;
-margin: 4px 10px;
+margin: 2px 20px;
+padding: 1px 1px;
+display: flex;
+
+
 }
 .logo{
-  margin: 10px 10px;
+  margin: -130px 0px 0px 50px;
   padding: 10px 10px;
- width: 20%;
+ width: 30%;
+ height: auto;
  
 
 }
@@ -59,30 +64,38 @@ margin: 4px 10px;
       list-style: none;
       
       }
-      main{
-        width: 90%
-        height: 90%;
-        background-color: aqua;
+      body{
         
-
       }
-      seccion{
-        width: 90vih;
-        height: 90vih;
-        background-color: aqua;
-        margin: 50px 20px;
+      
+      main{
+        margin: auto;
+        padding: 10px 10px;
+        
+        width: 90%;
+        
+       
       }
+     
       h1{
         text-align: center;
         color: #1b5650;
         font-weight: bold;
         font-family:'Courier New', Courier, monospace;
         width: 30%;
-        height: 50%;
-        margin: -50PX 40PX;
-        padding: 10PX, 10PX;
-        background-color: #666;
+        height: 80px;
+        margin: auto;
+        padding:10PX 10px 10px 20PX;
+        
 
+      }
+      section{
+        display: flex;
+        margin: 20px 20px;
+      }
+      article{
+        margin: 20px 20px;
+        padding: 10px 10px;
       }
 
 
