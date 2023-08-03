@@ -30,8 +30,8 @@ header {
 }
 ul {
   display: flex;
-  justify-content:end;
-  align-items:flex-start;
+  justify-content: end;
+  align-items: flex-start;
   margin-right: 30px;
   padding-right: 50px;
 }
@@ -55,9 +55,8 @@ a:hover {
 
 li {
   list-style: none;
-  
 }
- 
+
 body {
 }
 
@@ -78,10 +77,10 @@ h1 {
   margin: 15px auto;
   padding: 250px 10px 1px 20px;
 }
-.flex-container{
+.flex-container {
   display: flex;
-  flex-direction: row;
- justify-content:space-evenly;
+  flex-direction: ;
+  justify-content: space-evenly;
   margin: 50px 10px 5px 5px;
   padding: 20px 20x;
 }
