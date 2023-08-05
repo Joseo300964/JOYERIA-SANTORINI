@@ -5,12 +5,16 @@
 }
 header {
   display: flex;
-  width: 1600px;
+  width: 1650px;
   height: 200px;
-  margin: 0px 30px 50px 10px;
-  padding: 0px 1px;
-  position: fixed;
-  background-color: #f0f0f0;
+  margin: 1px 1px 1px 1px;
+  padding: 100px 2px 1px 1px;
+  background-color: #f3ebeb3e;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+  
 }
 .logo {
   margin: -130px 0px 0px 50px;
@@ -18,9 +22,6 @@ header {
   width: 30%;
   height: auto;
   -webkit-transition: webkit-transform 0.3s ease-in-out 0.1s;
-}
-.logo :hover {
-  -webkit-transform: scale(1.2);
 }
 .nav-principal {
   margin: 10px 10px;
@@ -56,16 +57,17 @@ a:hover {
 li {
   list-style: none;
 }
-
-body {
+body{
+ 
 }
 
 main {
-  margin: auto;
-  padding: 10px 10px;
-
-  width: 90%;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  width: 100%;
+ 
 }
+
 
 h1 {
   text-align: center;
@@ -77,16 +79,38 @@ h1 {
   margin: 15px auto;
   padding: 250px 10px 1px 20px;
 }
+
 .flex-container {
   display: flex;
-  flex-direction: ;
-  justify-content: space-evenly;
-  margin: 50px 10px 5px 5px;
-  padding: 20px 20x;
-}
-article {
-  margin: 50px 10px 1px 5px;
+  justify-content: center;
+  align-items: center;
+   margin:auto;
   padding: 10px 10px;
+  width: 90%;
+  
+
+}
+.bienvenidos {
+  border: 0.5px solid #1b5650;
+  border-radius: 15px;
+  padding: 1px 1px;
+  margin: 1px 1px;
+   width: 50%;
+  height: 400px;
+  background-image: url(/assets/faviconSantorini.PNG);
+  background-repeat: no-repeat;
+  
+  
+}
+.imagen {
+  border: 0.5px solid #1b5650;
+  border-radius: 15px;
+  padding: 1px 1px;
+  margin: 1px 1px;
+  
+  width: 50%;
+  height: 400px;
+  
 }
 footer {
   background-color: #6a6b6c;
